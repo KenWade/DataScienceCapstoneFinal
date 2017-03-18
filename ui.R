@@ -29,8 +29,8 @@ ui <- dashboardPage(
         br(),br(),
         "The more probable words will be in the buttons towards the left, the least probable towards the right.",
         br(),br(),
-        "Additional directions and more information about this application can be found on ",
-        HTML("<a href='http://rpubs.com/KenWade/259757' target='_blank'>The ThisNextWord Slide Deck</a>."),
+        "Additional directions and more information about this application can be found on the ",
+        HTML("<a href='http://rpubs.com/KenWade/259776' target='_blank'>ThisNextWord Slide Deck</a>."),
         br(),br(),
         "For the Coursera Peer-graded Assignment, please consider the left-most, highest probability word, the 'prediction of a single word'. ",
         "The others are for 'showing off' and 'making it really sing' as instructor Roger Peng advised in the lectures.",
@@ -46,8 +46,7 @@ ui <- dashboardPage(
     HTML("<br>"),
     fluidRow(
       column(width = 12,
-      tags$textarea(id = "inputPhrase", rows =  4, cols = 204, "", autofocus = "autofocus", placeholder="Enter Text Here:"))
-#      tags$textarea(id = "inputPhrase", rows =  4, width="400%", "", autofocus = "autofocus", placeholder="Enter Text Here:"),
+      tags$textarea(id = "inputPhrase", rows =  4, cols = 119, "", autofocus = "autofocus", placeholder="Enter Text Here:"))
 #      verbatimTextOutput("outputPhrase"))
     )
   )
