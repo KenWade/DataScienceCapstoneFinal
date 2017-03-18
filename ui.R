@@ -10,7 +10,7 @@ library(shiny)
 library(shinydashboard)
 
 Title <- "ThisNextWord: Johns Hopkins School of Public Health Data Science Capstone Project"
-titleWidth <- 1024
+titleWidth <- 750
 
 ui <- dashboardPage(
   dashboardHeader(title=Title, titleWidth = titleWidth),
