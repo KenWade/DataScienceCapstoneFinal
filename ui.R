@@ -34,6 +34,8 @@ ui <- dashboardPage(
         br(),br(),
         "For the Coursera Peer-graded Assignment, please consider the left-most, highest probability word, the 'prediction of a single word'. ",
         "The others are for 'showing off' and 'making it really sing' as instructor Roger Peng advised in the lectures.",
+        br(),br(),
+        "Please type slowly. The four buttons will refresh after each keypress as the algorithm makes new word predictions.",
         width = 12, solidHeader = TRUE)
     ),
     HTML("<br>"),
